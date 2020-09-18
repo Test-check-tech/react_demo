@@ -1,0 +1,42 @@
+.player-wrapper {
+    position: fixed;
+    padding-top: 56.25% /* Player ratio: 100 / (1280 / 720) */
+  }
+   
+  .react-player {
+    position: static;
+    margin: auto;
+    /* top: 0;
+    left: 15; */
+  }
+
+  .rectangle {
+    display: inline-block;
+    background-color: rgb(211, 81, 6);
+    margin-left:250px;
+    width: 700px;
+    height: 500px;
+    background:lightgray;
+    border-style: dotted;
+    text-align: center;
+  }
+
+
+  .button{
+    
+  }
+
+
+  input[type="file"] {
+    /* border-radius: 70px; */
+    border: 1px solid #ccc;
+    display: inline-block;
+    padding: 6px 12px;
+    cursor: pointer;
+    background-color: #51cbce;
+    color: #FFFFFF;
+    border-width: 1px;
+    border-radius: 30px;
+    padding-right: 23px;
+    padding-left: 23px;
+}
